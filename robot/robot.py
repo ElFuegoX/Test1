@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-
+   
 class Robot(ABC):
     def __init__(self, name, position=(0, 0)):
         self._name = name
